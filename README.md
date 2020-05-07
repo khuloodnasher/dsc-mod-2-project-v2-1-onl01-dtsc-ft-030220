@@ -100,3 +100,10 @@ Predicted price decreases with unit increase in age of house i.e. the year built
 
 ![](images/waterfront.png)
 
+## Conclusion
+Predicting house prices is quite complex and challenging because it depends on various factors such as Sqft living, No. of bathrooms, grade of a house and Zipcode. The other factors that influence the price are renovation and Waterfront feature.
+
+Finally,our results indicate that in order to provide accurate predictions of house prices, a very large number of features must be used and that they most likely need to be combined with a powerful,complex and non-linear model.
+
+
+
