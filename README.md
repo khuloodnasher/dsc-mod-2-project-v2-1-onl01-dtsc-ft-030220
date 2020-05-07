@@ -60,4 +60,19 @@ The assumption of constant variance appears to be satisfactory maintained
 
 ![](images/truepredictfit.png)
 
+## Interpreting Data
+The positive coefficient of the model provides the expected change in the dependent variable (sale price) for a one-unit increase in the independent variable A positive coefficient indicates a positive relationship. As the independent variable increases, the sale price increases. While the negative coffient tells us that the sale price decreases as the independent variable decreases, but with keeping all other variables constant.
+
+### Impotant Questions
+
+1- What are the most powerful features to predict the house sale price of King County?
+
+2- What are the top 10 best zip codes in King County, with regards to the housing sale price?
+
+3- What are the top 10 worst zip codes in King County, considering the housing sale price?
+
+4- What is the most important factor of house sale price in King County?
+
+5- Are the houses overlooking waterfront more expensive?
+
 
