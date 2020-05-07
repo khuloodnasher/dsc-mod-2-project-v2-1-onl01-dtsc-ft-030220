@@ -54,3 +54,10 @@ To check if the residuals are normally distributed, a Q-Q plot is a helpful visu
 
 ![](images/predictresidual.png)
 
+The predicted values of the baseline model are equally scattered which means Homoscedasticity Assumption is maintained, and my baseline model is valid.
+
+The assumption of constant variance appears to be satisfactory maintained
+
+![](images/truepredictfit.png)
+
+
