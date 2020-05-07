@@ -78,3 +78,25 @@ The positive coefficient of the model provides the expected change in the depend
 ![](images/top10zip.png)
 
 ![](images/bottom10zip.png)
+
+## More Model Interpretation
+The following can be inferred from my model:
+Every unit increase in Square feet living,Square feet lot, Square feet lot 15, and Bathrooms will increase the predicted price.
+
+Predicted price slightly decreases with unit increase in Bedrooms.
+
+The predicted price will increase with increase in latitude as the location moves from South to North.
+
+Predicted price is high for houses with waterfront.
+
+Predicted price is high for houses with condition 4 or 5, and grade greater than 8 and with View.
+
+Predicted price decreases with unit increase in age of house i.e. the year built.
+
+![](images/grade.png)
+
+![](images/latitude.png)
+
+
+![](images/waterfront.png)
+
