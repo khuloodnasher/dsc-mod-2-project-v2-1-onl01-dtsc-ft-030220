@@ -75,4 +75,6 @@ The positive coefficient of the model provides the expected change in the depend
 
 5- Are the houses overlooking waterfront more expensive?
 
+![](images/top10zip.png)
 
+![](images/bottom10zip.png)
