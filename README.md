@@ -34,4 +34,7 @@ Area of the interior living space which is' sqft_living' is linearly correlated 
 
 ![](images/download(1).png)
 
+## Longitude/Latitude
+
+![](images/longlat.png)
 
