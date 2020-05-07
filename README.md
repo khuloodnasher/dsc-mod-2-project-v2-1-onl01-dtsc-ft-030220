@@ -45,7 +45,12 @@ While modelling, we see that the grade of a house, Sqaure foot area of a house, 
 
 Hence we will go with Model2. We then validated model2 with cross validation at kfols=5,10,and 20 and got mean square error(MSE) scoring results of all above kfolds similar to each other and similar to the mean square error of training and testing.
 
+##  Checking the Normality Assumption through QQ plot
+To check if the residuals are normally distributed, a Q-Q plot is a helpful visual for analyzing this.
+
 ![](images/qqplot.png)
+
+## Check Homoscedasticity Assumption
 
 ![](images/predictresidual.png)
 
