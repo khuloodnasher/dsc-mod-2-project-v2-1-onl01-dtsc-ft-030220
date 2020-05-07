@@ -38,3 +38,12 @@ Area of the interior living space which is' sqft_living' is linearly correlated 
 
 ![](images/longlat.png)
 
+
+## Model Data
+
+While modelling, we see that the grade of a house, Sqaure foot area of a house, Zipcode and number of bathrooms have large positive coefficients which indicate the effect they have on the pricing of a house. We removed outliers,then ran statsmodels and scikit-learn model and remove variables which have p>0.05 using stepwise method. We again ran statsmodels and scikit-learn model and get R2 score of 0.67 When checking for Normality, the QQ plot looks good. The Homoscedasticity graph looks quite appropriate. We also checked for Multicollinearity, and see that the vif values were all under 5. We Scaled the continous predictors and onehot encoding the categorical variables,then we ran model2 with statsmodels and scikit-learn, and the R2 score increases to 0.82
+
+Hence we will go with Model2. We then validated model2 with cross validation at kfols=5,10,and 20 and got mean square error(MSE) scoring results of all above kfolds similar to each other and similar to the mean square error of training and testing.
+
+
+
