@@ -28,4 +28,9 @@ To get rid of outliers, I looked at it through plots and quantile, and I  define
 Looking at bathroom plot and using my scipy function of outlier removal, bathroom<=4, was the best choice.
 ![](images/bathroom.png)
 
+Area of the interior living space which is' sqft_living' is linearly correlated with the sale price. Prices rise as sqft of living space increase.
+![](images/sqftliving.png)
+
+![](images/download1.png)
+
 
