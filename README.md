@@ -14,8 +14,13 @@ The data for this project comes from Kaggle’s House Prices Dataset. The datase
 
 
 ![](images/databefore.png)
-
+## Scrub Data
 waterfront, view, and yr_renovated have missing values. Also, date and sqft_basement are string objects. Checking the percentage of null values in each of the 3 columns is good way to decide how to deal with null values. If the percentage is high, dropping the column will be a good approach. If the percentage is low , either dropping the rows, binning the columns or replacing the null values with each columns median, mean or mode.
 
 ![](images/caterogic.png)
+
+## Explore Data
+
+To get rid of outliers, I looked at it through plots and quantile, and I  defined a function using scipy library which considers the z-value(number of sigma) = 3 as threshold and returns True if z>3, which means these values are outliers, and return False if z<3, which means these values are not outliers. I used the function to confirm the outlier removal.
+![](images/outliersremoved.png)
 
