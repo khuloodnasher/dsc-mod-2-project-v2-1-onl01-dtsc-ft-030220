@@ -24,3 +24,8 @@ waterfront, view, and yr_renovated have missing values. Also, date and sqft_base
 To get rid of outliers, I looked at it through plots and quantile, and I  defined a function using scipy library which considers the z-value(number of sigma) = 3 as threshold and returns True if z>3, which means these values are outliers, and return False if z<3, which means these values are not outliers. I used the function to confirm the outlier removal.
 ![](images/outliersremoved.png)
 
+## Bathroom Outlier Removal
+Looking at bathroom plot and using my scipy function of outlier removal, bathroom<=4, was the best choice.
+![](images/bathroom.png)
+
+
