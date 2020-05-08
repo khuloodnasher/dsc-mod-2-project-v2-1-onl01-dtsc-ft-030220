@@ -6,6 +6,8 @@
 
 Using housing data, I will try to predict housing prices using a regression model. There are many potential use cases for forecasting housing prices. A real-estate professional may be interested in forecasting revenue. A homeowner may be interested in identifying important features that affect sales price so that they can make appropriate renovation decisions before selling. In any case, my hypothesis is that the specific housing features I collect, such as square footage, bedrooms, etc, are predictive of future housing prices.
 
+In this project, I will follow the steps of The OSEMN framework, i.e. Obtain Scrub Explore Model iNterpret - OSEMN as follows:
+
 
 ![](images/osemn.png)
 
